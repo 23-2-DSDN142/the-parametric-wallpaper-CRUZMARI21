@@ -13,21 +13,47 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(400,300);
+  background(220,0,200);
 }
 
-function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
-  
   function draw() {
-    background(480,0, 180);
-    
-    ellipse(200, 180, 80)
+    ellipse(10, 200, 80)
+    ellipse(100, 200, 80)
+    ellipse(200, 200, 80)
+    ellipse(300, 200, 80)
+    ellipse(400, 200, 80)
     fill(150, 70 , 85)
     stroke(200,40,30)
     
-    rect(20, 20, 20, 20);
-  }}
-
+    rect(-40, 80, 55)
+    rect(40, 80, 55)
+    rect(140, 80, 55)
+    rect(240, 80, 55)
+    rect(340, 80, 55)
+    fill(`460,270,138`)
+     
+    ellipse(10, 200, 80)
+    ellipse(100, 200, 80)
+    ellipse(60, 200, 80)
+    ellipse(100, 200, 80)
+    ellipse(150,200,80)
+    ellipse(200,200,80)
+    ellipse(250, 200, 80)
+    ellipse(350,200,80)
+    
+    rect(500, 580, 125)
+    rect(840, 280, 65)
+    
+    ellipse(30, 20, 90)
+    ellipse(150, 20, 90)
+    ellipse(300,20,90)
+    ellipse(420,20,90)
+    
+    rect(-240, 90, 55)
+    rect(240, 180, 55)
+    rect(340, 280, 55)
+    rect(440, 380, 55)
+    rect(540, 480, 55)
 }
 
 
