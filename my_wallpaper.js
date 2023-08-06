@@ -17,16 +17,6 @@ function wallpaper_background() {
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
-
-  background(220, 180, 20);
-  ellipse(56, 46, 55, 55);//eyeSize
-  describe('A white ellipse with black outline in middle of a gray canvas.');
-
-
-
-  function setup() {
-    createCanvas(400, 400);
-  }
   
   function draw() {
     background(480,0, 180);
@@ -35,7 +25,7 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
     fill(150, 70 , 85)
     stroke(200,40,30)
     
-    rect()
+    rect(20, 20, 20, 20);
   }}
 
 }
