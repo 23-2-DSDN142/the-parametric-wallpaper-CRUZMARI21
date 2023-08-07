@@ -21,7 +21,20 @@ function wallpaper_background() {
 
 function my_symbol(){
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   point(20, 25);
@@ -30,21 +43,21 @@ function my_symbol(){
   strokeWeight(10);
   point(85, 75);
   point(15, 35);
-  describe(
-    'Four points drawn on a gray canvas. Two are black and two are purple. The points form the corners of a square.'
+  describe
+  ('Four points drawn on a gray canvas. Two are black and two are purple. The points form the corners of a square.'
   );
-
-
-
   
   fill (30,29,49)
   square (-16, 70, 34, 5);
-  describe('A square with a black outline and round edges on a gray canvas.'
+  describe
+  ('A square with a black outline and round edges on a gray canvas.'
   );
 
-  square (85, -32, 34, 5);
-  describe('A square with a black outline and round edges on a gray canvas.'
-  );
+
+ square(85, 34, 5);
+ describe
+ ('A square with a black outline and round edges on a gray canvas.'
+ );
 
  fill(30,29,49)
  ellipse(52,-18,35)
@@ -53,12 +66,12 @@ function my_symbol(){
  ellipse(50, 85, -35, -35)
  ellipse(-50, 90, -28)
 
-  myHeart(0,0) 
-  myHeart(-50,-40)
-  myHeart(50,50)
-  myHeart(100,100)  
-  myHeart(150,150)
-  myHeart(150,55)
+ myHeart(0,0) 
+ myHeart(-50,-40)
+ myHeart(50,50)
+ myHeart(100,100)  
+ myHeart(150,150)
+ myHeart(150,55)
 
 }
 
@@ -74,7 +87,20 @@ function myHeart(heartX, heartY){
 }
 
 
+function wallpaper_background() {
 
+  background('pink');
+}
+
+function my_symbol(){
+
+rect(80,50,54);
+noStroke('remove stroke')
+
+describeElement('Square in the top left corner');
+FileList('yellow');
+
+}
 
 
 
