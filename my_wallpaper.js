@@ -1,4 +1,6 @@
 
+
+
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.resolution(FIT_TO_SCREEN);
@@ -11,15 +13,26 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
+  
   background(220,0,200);
 }
+
 function my_symbol(){
-  
-fill('black');
-noStroke();
-ellipse(67, 67, 20, 20);
-ellipse(83, 67, 20, 20);
-triangle(91, 73, 75, 95, 59, 73);
+
+  myHeart(0,0, 20) 
+  myHeart(50,50,20)
+  myHeart(110,110,20)  
+
+}
+
+function myHeart(heartX, heartY, size){
+ 
+  fill('black');
+  noStroke();
+  ellipse(heartX + 8, heartY - 28, 20, 20);
+  ellipse(heartX - 8, heartY - 28, 20, 20);
+  triangle(heartX + 16, heartY - 22, heartX, heartY, heartX - 16, heartY - 22);
+
 
 }
 
