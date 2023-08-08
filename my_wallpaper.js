@@ -394,15 +394,26 @@ function my_symbol(){
 
     function my_symbol(){
       
-      myHeart(90,70)
-      myHeart(10,100) 
-      myHeart(90,100)
-      myHeart(10,70)
-    
-      myHeart(50,70)
-      myHeart(90,130) 
-      myHeart(50,130)
-      myHeart(10,130)
-      myHeart(50,100)
+      myHeart(105,50)
+      myHeart(105,100) 
+      myHeart(-10,100)
+      myHeart(-10,50) 
 
-      }
+      strokeWeight(0);
+textSize(12);
+textStyle(NORMAL);
+text('Yellow hearts', 10, 15);
+textStyle(ITALIC);
+text('Yellow hearts', 10, 40);
+textStyle(BOLD);
+text('Yellow hearts', 10, 65);
+textStyle(BOLDITALIC);
+text('Yellow hearts', 10, 90);
+describe(`The words “Yellow hearts” displayed normally,
+  “Font Style Italic” in italic,
+  “Font Style Bold” in bold, and
+  “Font Style Bold Italic” in bold italics.`);
+    }
+    
+  
+
