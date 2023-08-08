@@ -354,16 +354,55 @@ function my_symbol(){
   
   }
 
+  function wallpaper_background() {
+    background('pink')
  
- 
+  }
+  
+  function my_symbol(){
+  
+  
+    myHeart(100,60)
+    myHeart(100,100) 
+    myHeart(150,100)
 
+    myHeart(50,60)
+    myHeart(50,100) 
+    myHeart(50,100)
 
   
+    myHeart(10,60)
+    myHeart(10,100) 
+    myHeart(10,100)
+    myHeart(150,60)
+    
+  }
 
+    function myHeart(heartX, heartY){
+   
+      fill('yellow');
+      noStroke();
+      ellipse(heartX + 8, heartY - 28, 20, 20);
+      ellipse(heartX - 8, heartY - 28, 20, 20);
+      triangle(heartX + 16, heartY - 22, heartX, heartY, heartX - 16, heartY - 22);
  
-
+    }
  
+    function wallpaper_background() {
+      background('grey')
+    }
 
+    function my_symbol(){
+      
+      myHeart(90,70)
+      myHeart(10,100) 
+      myHeart(90,100)
+      myHeart(10,70)
+    
+      myHeart(50,70)
+      myHeart(90,130) 
+      myHeart(50,130)
+      myHeart(10,130)
+      myHeart(50,100)
 
-
-
+      }
