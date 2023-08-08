@@ -20,23 +20,6 @@ function wallpaper_background() {
 }
 
 function my_symbol(){
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   point(20, 25);
   point(90, 120);
   stroke('purple');
@@ -89,28 +72,194 @@ function myHeart(heartX, heartY){
 
 function wallpaper_background() {
 
+  background('PURPLE');
+}
+
+function my_symbol(){
+fill('Pink');
+ellipse(50,70,172)
+fill('black')
+
+ellipse(20,40,30)
+ellipse(80,40,30)
+
+ellipse(50,100,40)
+fill('white')
+
+ellipse(20,40,10)
+ellipse (10,40,5)
+
+ellipse(75,40,10)
+ellipse(85,40,5)
+
+ellipse(90,70,30,15);
+fill('red')
+ellipse(90,70,30,15);
+fill('red')
+ellipse(10,70,30,15);
+fill('red')
+
+textSize(14);
+text('do things with love', 60, -32);
+fill(80, 102, 153);
+strokeWeight(50,50);
+textStyle(BOLDITALIC);
+describe(`The words “do things with love” displayed normally,
+  "Font Style Bold Italic” in bold italics.`);
+
+  text('do things with love', 70, -22);
+
+}
+
+
+
+
+
+function wallpaper_background() {
+
   background('pink');
+  fill('pink)')
+}
+
+function my_symbol(){
+stroke('red');
+strokeWeight(4);
+rect(20, 20, 60, 60);
+ellipse(80, -20, 30, -190)//right ear 
+ellipse(15, -20, 30, -170)//left ear
+
+
+ellipse(50,50, 100)//circle face 
+fill('brown')//left eyes
+ellipse(30,40,20)//left eyes
+ellipse(70,40,20)//left eyes
+
+fill('pink')
+ellipse(50,60,10,-10,70)//nose
+
+triangle(42, 79, 58, 74, 56);
+}
+
+
+function wallpaper_background() {
+background('pink')
 }
 
 function my_symbol(){
 
-rect(80,50,54);
-noStroke('remove stroke')
+  fill('red')
+  noStroke(100,0,100)
+  fill('white')
+  
+  fill('red')
+  ellipse(50,60,200)
+  
+  fill('black')
+  ellipse(50,60,190)
+  
+  fill('red')
+  ellipse(50,60,160)
+  
+  fill('black')
+  ellipse(50,60,130)
+  
+  fill('red')
+  ellipse(50,60,100)
+  
+  fill('black')
+  ellipse(50,60,80)
+  
+  
+  fill('red');
+  ellipse(66.6, 66.6, 20, 20);
+  ellipse(83.2, 66.6, 20, 20);
+  triangle(91.2, 72.6, 75, 95, 58.6, 72.6);
+  
+  fill('red');
+  ellipse(30, 50, 20, 20);
+  ellipse(15, 50, 20, 20);
+  }
 
-describeElement('Square in the top left corner');
-FileList('yellow');
+
+function wallpaper_background() {
+background('yellow')
 
 }
 
+function my_symbol(){
+
+fill('pink')
+stroke ('yellow')
+rect(50,60,30)
+rect(20,60,30)
+rect(-10,60,30)
+rect(-40,60,30)
+rect(-70,60,30)
+rect(80,60,30)
+rect(110,60,30)
+rect(140,60,30)
+
+
+fill('pink')
+stroke('yellow')
+rect(50,90,30)
+rect(80,90,30)
+rect(110,90,30)
+rect(20,90,30)
+rect(-10,90,30)
+
+rect(-10,90,30)
+rect(80,120,30)
+rect(50,120,30)
+rect(20,120,30)
+rect(-10,120,30)
+rect(-40,90,30)
+
+fill('red')
+rect(-100,30,30)
+rect(-70,30,30)
+rect(-40,30,30)
+rect(-10,30,30)
+rect(80,30,30)
+rect(20,30,30)
+rect(50,30,30)
+rect(110,30,30)
+rect(140,30,30)
+rect(170,30,30)
+
+//above
+rect(170,-0,30)
+rect(140,-0,30)
+rect(110,-0,30)
+rect(80,-0,30)
+rect(50,-0,30)
+rect(20,-0,30)
+rect(-10,-0,30)
+rect(-40,-0,30)
+rect(-70,-0,30)
+rect(-100,-0,30)
+
+rect(140,-30,30)
+rect(110,-30,30)
+rect(80,-30,30)
+rect(50,-30,30)
+rect(20,-30,30)
+rect(-10,-30,30)
+rect(-40,-30,30)
+rect(-70,-30,30)
 
 
 
+rect(80,-60,30)
+rect(110,-60,30)
+rect(-40,-60,30)
+rect(-10,-60,30)
 
 
+} 
+ 
 
-
-
-
+  
 
 
 
