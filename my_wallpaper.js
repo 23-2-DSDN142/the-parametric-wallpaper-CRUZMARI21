@@ -314,9 +314,55 @@ function my_symbol(){
 
  }
 
+ function wallpaper_background() {
+  background('red')
+ }
+
+ function my_symbol(){
+  
+ fill('red')
+ rect(-10,70,30)
+ rect(20,70,30)
+ rect(50,70,30)
+ rect(80,70,30)
+
+ rect(50,40,30)
+ rect(80,40,30)
+ rect(20,40,30)
+ rect(-10,40,30)
+ rect(-10,10,30)
+ rect(20,10,30)
+ rect(50,10,30)
+ rect(80,10,30)
+ rect(80,-20,30)
+ rect(50,-20,30)
+ rect(20,-20,30)
+ rect(-10,-20,30)
+
+  myHeart(50,60)
+  myHeart(100,100) 
+  myHeart(10,20)
+ }
+  
+  function myHeart(heartX, heartY){
+ 
+    fill('black');
+    noStroke();
+    ellipse(heartX + 8, heartY - 28, 20, 20);
+    ellipse(heartX - 8, heartY - 28, 20, 20);
+    triangle(heartX + 16, heartY - 22, heartX, heartY, heartX - 16, heartY - 22);
+  
+  }
+
+ 
+ 
 
 
+  
 
+ 
+
+ 
 
 
 
