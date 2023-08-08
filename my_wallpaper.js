@@ -112,9 +112,6 @@ describe(`The words “do things with love” displayed normally,
 }
 
 
-
-
-
 function wallpaper_background() {
 
   background('pink');
@@ -258,9 +255,64 @@ rect(-10,-60,30)
 
 } 
  
+function wallpaper_background() {
+background('grey')
+}
 
+function my_symbol(){
   
+ myHeart(0,0) 
+ myHeart(1,-40)
+ myHeart(50,50)
+ myHeart(100,100)  
+ myHeart(150,150)
+ myHeart(150,55)
 
+ myHeart (-0,50) 
+ myHeart(-50,-40)
+ myHeart(50,50)
+ myHeart(150,100)
+ myHeart(101,150)
+ myHeart(101,55)
+
+ myHeart(101,0) 
+ myHeart(150,-40)
+ myHeart(50, 100)
+ myHeart(-1,100)  
+ myHeart(-1,150)
+ myHeart(-50,100)
+
+ myHeart(150,0) 
+ myHeart(50, 150)
+ myHeart(-50,150)  
+ myHeart(-50,50)
+ myHeart(-50,100)
+
+ myHeart(50,0)
+ myHeart(50,-40)
+ myHeart(100,-40)
+ myHeart(-50,150)  
+ myHeart(-50, 1)
+ myHeart(-50,100)
+
+ myHeart(200,-40)
+ myHeart(200,0) 
+ myHeart(200,55)
+ myHeart(200,100)
+ myHeart(200,150)  
+ 
+
+}
+ 
+ function myHeart(heartX, heartY){
+  
+   fill('red');
+   noStroke();
+   ellipse(heartX + 8, heartY - 28, 20, 20);
+   ellipse(heartX - 8, heartY - 28, 20, 20);
+   triangle(heartX + 16, heartY - 22, heartX, heartY, heartX - 16, heartY - 22);
+
+ }
 
 
 
